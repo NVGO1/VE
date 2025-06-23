@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NVGO | Professional YouTube Video Editing Service</title>
+    <meta name="description" content="Get professional YouTube video editing with a 24-hour turnaround. NVGO helps creators elevate their content with motion graphics, color grading, and more. Starting at $90.">
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-200 font-[Poppins] antialiased selection:bg-blue-500/20">
+
+    <div id="root" class="overflow-x-hidden">
+        
+        <!-- Header & Theme Toggle -->
+        <header class="fixed top-0 left-0 right-0 z-50 flex justify-between items-center p-4 bg-slate-50/80 dark:bg-slate-900/80 backdrop-blur-sm">
+            <h1 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-white">NVGO</h1>
+            <button id="theme-toggle" class="p-2 rounded-full hover:bg-slate-200 dark:hover:bg-slate-800 transition-colors">
+                <i data-lucide="sun" class="block dark:hidden" aria-hidden="true"></i>
+                <i data-lucide="moon" class="hidden dark:block" aria-hidden="true"></i>
+            </button>
+        </header>
+
+        <main>
+            <!-- Hero Section -->
+            <section id="hero" class="relative min-h-screen flex items-center justify-center text-center text-white px-4 pt-20 overflow-hidden">
+                <div class="animated-gradient-bg"></div>
+                <div class="absolute inset-0 bg-black/40"></div>
+                <div class="relative z-10 flex flex-col items-center">
+                    <div class="w-full max-w-4xl mx-auto mb-8">
+                         <img src="https://r2.flowith.net/files/o/1750663233840-youtube_creator_desk_setup_for_video_production_index_0@1024x1024.png" alt="YouTube creator's desk setup for video production" class="w-full h-auto object-cover rounded-2xl shadow-2xl max-h-[40vh]">
+                    </div>
+                    <h2 class="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tighter mb-4">Elevate Your YouTube in 24 Hours</h2>
+                    <p class="text-xl md:text-2xl font-medium text-slate-200 mb-8">Pro Editing Starting at <span class="font-bold text-white">$90!</span></p>
+                    <a href="#get-started" id="hero-cta" class="bg-white text-slate-900 font-semibold px-8 py-4 rounded-full text-lg hover:bg-slate-200 transition-all transform hover:scale-105 shadow-lg">
+                        Reserve Your Spot
+                    </a>
+                </div>
+            </section>
+
+            <!-- Benefits Section -->
+            <section id="benefits" class="py-20 md:py-32 px-4 container mx-auto">
+                <div class="text-center mb-16">
+                    <h3 class="text-3xl md:text-5xl font-bold mb-4">Why Choose NVGO?</h3>
+                    <p class="text-lg text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">We provide the speed, quality, and affordability you need to succeed.</p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 items-center">
+                    <div class="grid grid-cols-1 gap-8 lg:col-span-2">
+                        <div class="bg-white dark:bg-slate-800/50 p-8 rounded-2xl shadow-lg border border-slate-200 dark:border-slate-700">
+                            <div class="flex items-center gap-4 mb-4">
+                                <div class="bg-blue-100 dark:bg-blue-900/50 p-3 rounded-full text-blue-500"><i data-lucide="rocket" aria-hidden="true"></i></div>
+                                <h4 class="text-xl font-bold">24-Hour Delivery</h4>
+                            </div>
+                            <p class="text-slate-600 dark:text-slate-400">Get your edited video back in a day, ready to publish.</p>
+                        </div>
+                        <div class="bg-white dark:bg-slate-800/50 p-8 rounded-2xl shadow-lg border border-slate-200 dark:border-slate-700">
+                            <div class="flex items-center gap-4 mb-4">
+                                <div class="bg-purple-100 dark:bg-purple-900/50 p-3 rounded-full text-purple-500"><i data-lucide="wand-2" aria-hidden="true"></i></div>
+                                <h4 class="text-xl font-bold">Pro-Quality Edits</h4>
+                            </div>
+                            <p class="text-slate-600 dark:text-slate-400">Our experts use industry-standard software to make your content shine.</p>
+                        </div>
+                        <div class="bg-white dark:bg-slate-800/50 p-8 rounded-2xl shadow-lg border border-slate-200 dark:border-slate-700">
+                            <div class="flex items-center gap-4 mb-4">
+                               <div class="bg-green-100 dark:bg-green-900/50 p-3 rounded-full text-green-500"><i data-lucide="trending-up" aria-hidden="true"></i></div>
+                                <h4 class="text-xl font-bold">Affordable Growth</h4>
+                            </div>
+                            <p class="text-slate-600 dark:text-slate-400">Invest in quality that grows your channel without breaking the bank.</p>
+                        </div>
+                    </div>
+                     <div class="hidden md:block">
+                        <img src="https://r2.flowith.net/files/o/1750663207836-content_creator_celebrating_channel_growth_index_1@1024x1024.png" alt="Content creator celebrating channel growth" class="rounded-2xl shadow-xl w-full h-auto object-cover">
+                    </div>
+                </div>
+            </section>
+
+             <!-- What You Get Section -->
+            <section id="features" class="py-20 md:py-32 px-4 bg-white dark:bg-slate-800/50 border-y border-slate-200 dark:border-slate-800">
+                <div class="container mx-auto grid md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h3 class="text-3xl md:text-5xl font-bold mb-8">What Your Edit Includes</h3>
+                        <ul class="space-y-4 text-lg">
+                            <li class="flex items-start gap-3"><i data-lucide="check-circle-2" class="text-blue-500 mt-1 shrink-0" aria-hidden="true"></i><span><span class="font-semibold">10–20 min</span> final edit</span></li>
+                            <li class="flex items-start gap-3"><i data-lucide="check-circle-2" class="text-blue-500 mt-1 shrink-0" aria-hidden="true"></i><span>Dynamic <span class="font-semibold">motion graphics</span></span></li>
+                            <li class="flex items-start gap-3"><i data-lucide="check-circle-2" class="text-blue-500 mt-1 shrink-0" aria-hidden="true"></i><span>Engaging <span class="font-semibold">captions & subtitles</span></span></li>
+                            <li class="flex items-start gap-3"><i data-lucide="check-circle-2" class="text-blue-500 mt-1 shrink-0" aria-hidden="true"></i><span>Professional <span class="font-semibold">color grading</span></span></li>
+                            <li class="flex items-start gap-3"><i data-lucide="check-circle-2" class="text-blue-500 mt-1 shrink-0" aria-hidden="true"></i><span><span class="font-semibold">1 free revision</span></span></li>
+                            <li class="flex items-start gap-3"><i data-lucide="check-circle-2" class="text-blue-500 mt-1 shrink-0" aria-hidden="true"></i><span>Editor with <span class="font-semibold">5+ years</span> of experience</span></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <img src="https://r2.flowith.net/files/o/1750663247543-professional_video_editing_software_interface_closeup_index_2@1024x1024.png" alt="Professional video editing software interface" class="rounded-2xl shadow-xl w-full h-auto object-cover">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Portfolio Section -->
+            <section id="portfolio" class="py-20 md:py-32 px-4 container mx-auto">
+                <div class="text-center mb-16">
+                    <h3 class="text-3xl md:text-5xl font-bold mb-4">See Our Editing Magic</h3>
+                    <p class="text-lg text-slate-600 dark:text-slate-400">A glimpse into the quality and style we bring to every project.</p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="aspect-video bg-slate-200 dark:bg-slate-800 rounded-xl overflow-hidden shadow-lg">
+                        <iframe class="w-full h-full" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <p class="p-4 font-semibold bg-white dark:bg-slate-800/50">Gaming Edit Example</p>
+                    </div>
+                    <div class="aspect-video bg-slate-200 dark:bg-slate-800 rounded-xl overflow-hidden shadow-lg">
+                         <iframe class="w-full h-full" src="https://www.youtube.com/embed/L_jWHffIx5E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <p class="p-4 font-semibold bg-white dark:bg-slate-800/50">Tutorial Edit Example</p>
+                    </div>
+                    <div class="aspect-video bg-slate-200 dark:bg-slate-800 rounded-xl overflow-hidden shadow-lg">
+                         <iframe class="w-full h-full" src="https://www.youtube.com/embed/y6120QOlsfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <p class="p-4 font-semibold bg-white dark:bg-slate-800/50">Vlog Edit Example</p>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Pricing Section -->
+            <section id="pricing" class="py-20 md:py-32 px-4 bg-white dark:bg-slate-800/50 border-y border-slate-200 dark:border-slate-800">
+                <div class="container mx-auto">
+                    <div class="text-center mb-16 max-w-3xl mx-auto">
+                        <h3 class="text-3xl md:text-5xl font-bold mb-4">Simple, Transparent Pricing</h3>
+                        <p class="text-lg text-slate-600 dark:text-slate-400">Choose the plan that fits your content needs. No hidden fees.</p>
+                    </div>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 items-start">
+                        <!-- Basic -->
+                        <div class="bg-slate-50 dark:bg-slate-800 p-8 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-lg flex flex-col h-full">
+                            <h4 class="text-2xl font-bold mb-2">Basic</h4>
+                            <p class="text-4xl font-extrabold mb-4">$90</p>
+                            <p class="text-slate-600 dark:text-slate-400 mb-6 min-h-[48px]">Perfect for straightforward videos that need a professional touch.</p>
+                            <ul class="space-y-3 mb-8 text-slate-600 dark:text-slate-300">
+                                <li class="flex gap-2"><i data-lucide="check" class="text-blue-500 shrink-0" aria-hidden="true"></i>Up to 10 min raw footage</li>
+                                <li class="flex gap-2"><i data-lucide="check" class="text-blue-500 shrink-0" aria-hidden="true"></i>Basic edits & cuts</li>
+                                <li class="flex gap-2"><i data-lucide="check" class="text-blue-500 shrink-0" aria-hidden="true"></i>Engaging captions</li>
+                            </ul>
+                             <a href="#get-started" class="mt-auto w-full text-center bg-slate-200 dark:bg-slate-700 font-semibold px-6 py-3 rounded-lg hover:bg-slate-300 dark:hover:bg-slate-600 transition-colors">Get Started</a>
+                        </div>
+                        <!-- Pro -->
+                        <div class="bg-blue-500 text-white p-8 rounded-2xl shadow-2xl relative border border-blue-600 flex flex-col h-full scale-105">
+                            <span class="absolute top-0 -translate-y-1/2 left-1/2 -translate-x-1/2 bg-white text-blue-500 font-bold text-sm px-3 py-1 rounded-full">MOST POPULAR</span>
+                            <h4 class="text-2xl font-bold mb-2">Pro</h4>
+                            <p class="text-4xl font-extrabold mb-4">$120</p>
+                            <p class="text-blue-100 mb-6 min-h-[48px]">The ideal package for creators wanting to boost engagement.</p>
+                             <ul class="space-y-3 mb-8">
+                                <li class="flex gap-2"><i data-lucide="check" aria-hidden="true"></i>Up to 15 min raw footage</li>
+                                <li class="flex gap-2"><i data-lucide="check" aria-hidden="true"></i>Pro edits & transitions</li>
+                                <li class="flex gap-2"><i data-lucide="check" aria-hidden="true"></i>Motion graphics</li>
+                                <li class="flex gap-2"><i data-lucide="check" aria-hidden="true"></i>Professional color grading</li>
+                            </ul>
+                            <a href="#get-started" class="mt-auto w-full text-center bg-white text-blue-500 font-semibold px-6 py-3 rounded-lg hover:bg-blue-100 transition-colors">Get Started</a>
+                        </div>
+                        <!-- Premium -->
+                        <div class="bg-slate-50 dark:bg-slate-800 p-8 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-lg flex flex-col h-full">
+                            <h4 class="text-2xl font-bold mb-2">Premium</h4>
+                            <p class="text-4xl font-extrabold mb-4">$150</p>
+                             <p class="text-slate-600 dark:text-slate-400 mb-6 min-h-[48px]">The ultimate solution for a polished, channel-defining look.</p>
+                             <ul class="space-y-3 mb-8 text-slate-600 dark:text-slate-300">
+                                <li class="flex gap-2"><i data-lucide="check" class="text-blue-500 shrink-0" aria-hidden="true"></i>Up to 20 min raw footage</li>
+                                <li class="flex gap-2"><i data-lucide="check" class="text-blue-500 shrink-0" aria-hidden="true"></i>All Pro features</li>
+                                <li class="flex gap-2"><i data-lucide="check" class="text-blue-500 shrink-0" aria-hidden="true"></i>Custom intro/outro</li>
+                                <li class="flex gap-2"><i data-lucide="check" class="text-blue-500 shrink-0" aria-hidden="true"></i>Sound design & mixing</li>
+                            </ul>
+                            <a href="#get-started" class="mt-auto w-full text-center bg-slate-200 dark:bg-slate-700 font-semibold px-6 py-3 rounded-lg hover:bg-slate-300 dark:hover:bg-slate-600 transition-colors">Get Started</a>
+                        </div>
+                    </div>
+                     <div class="mt-16 flex justify-center items-center gap-4">
+                        <img src="https://r2.flowith.net/files/o/1750663184339-minimalist_pricing_growth_infographic_index_3@1024x1024.png" alt="Minimalist pricing growth infographic" class="w-24 h-24 object-cover rounded-lg hidden sm:block">
+                        <div class="bg-red-100 dark:bg-red-900/50 border border-red-500/50 text-red-700 dark:text-red-300 text-center font-semibold p-4 rounded-lg">
+                           <i data-lucide="flame" class="inline-block mr-2" aria-hidden="true"></i> Only 5 Spots Left This Week!
+                        </div>
+                     </div>
+                </div>
+            </section>
+            
+            <!-- Testimonials Section -->
+            <section id="testimonials" class="py-20 md:py-32 px-4 container mx-auto">
+                 <div class="text-center mb-16">
+                    <h3 class="text-3xl md:text-5xl font-bold mb-4">What Our Creators Say</h3>
+                </div>
+                <div class="grid lg:grid-cols-3 gap-8">
+                    <div class="bg-white dark:bg-slate-800/50 p-8 rounded-2xl shadow-lg border border-slate-200 dark:border-slate-700">
+                        <p class="text-slate-600 dark:text-slate-300 mb-6 italic">"Amazing 24-hour turnaround! The quality is top-notch. My subscribers noticed the difference immediately."</p>
+                        <div class="flex items-center gap-4">
+                            <img src="https://r2.flowith.net/files/o/1750663199248-friendly_professional_headshot_of_male_content_creator_index_4@1024x1024.png" alt="Headshot of Alex G." class="w-12 h-12 rounded-full object-cover">
+                            <div>
+                                <p class="font-bold">Alex G.</p>
+                                <p class="text-sm text-slate-500 dark:text-slate-400">Gaming Channel</p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="bg-white dark:bg-slate-800/50 p-8 rounded-2xl shadow-lg border border-slate-200 dark:border-slate-700">
+                        <p class="text-slate-600 dark:text-slate-300 mb-6 italic">"NVGO took my channel to the next level! My views have doubled. Couldn't have done it without their pro touch."</p>
+                        <div class="flex items-center gap-4">
+                            <img src="https://r2.flowith.net/files/o/1750663201642-professional_friendly_female_content_creator_headshot_index_5@1024x1024.png" alt="Headshot of Jessica P." class="w-12 h-12 rounded-full object-cover">
+                            <div>
+                                <p class="font-bold">Jessica P.</p>
+                                <p class="text-sm text-slate-500 dark:text-slate-400">Educational Creator</p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="bg-white dark:bg-slate-800/50 p-8 rounded-2xl shadow-lg border border-slate-200 dark:border-slate-700">
+                        <p class="text-slate-600 dark:text-slate-300 mb-6 italic">"The best editing service I’ve used. Professional, fast, and they understood my vision perfectly. Highly recommend!"</p>
+                        <div class="flex items-center gap-4">
+                            <img src="https://r2.flowith.net/files/o/1750663204055-professional_friendly_headshot_of_male_content_creator_index_6@1024x1024.png" alt="Headshot of David R." class="w-12 h-12 rounded-full object-cover">
+                            <div>
+                                <p class="font-bold">David R.</p>
+                                <p class="text-sm text-slate-500 dark:text-slate-400">Vlogger</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Get Started Form Section -->
+            <section id="get-started" class="py-20 md:py-32 px-4 bg-slate-100 dark:bg-slate-950 border-t border-slate-200 dark:border-slate-800">
+                <div class="container mx-auto max-w-3xl">
+                    <div class="text-center mb-12">
+                        <h3 class="text-3xl md:text-5xl font-bold mb-4">Reserve Your Spot Now</h3>
+                        <p class="text-lg text-slate-600 dark:text-slate-400">Fill out the details below to get started. It only takes a minute!</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-slate-900 p-8 rounded-2xl shadow-2xl border border-slate-200 dark:border-slate-800">
+                        <form id="contact-form">
+                            
+                            <!-- Progress Bar -->
+                            <div class="mb-8">
+                                <p class="text-sm font-medium mb-2 text-slate-600 dark:text-slate-400">Form Progress</p>
+                                <div class="w-full bg-slate-200 dark:bg-slate-700 rounded-full h-2.5">
+                                    <div id="progress-bar" class="bg-blue-600 h-2.5 rounded-full transition-all duration-500" style="width: 0%"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="space-y-8 form-sections">
+                                <!-- Step 1: Video Length -->
+                                <fieldset data-step="1">
+                                    <legend class="text-lg font-semibold mb-3">1. Select Video Length (Raw Footage)</legend>
+                                    <div class="grid grid-cols-3 gap-4">
+                                        <label class="form-radio-label"><input type="radio" name="length" value="10min" class="form-radio" required>10 min</label>
+                                        <label class="form-radio-label"><input type="radio" name="length" value="15min" class="form-radio" required>15 min</label>
+                                        <label class="form-radio-label"><input type="radio" name="length" value="20min" class="form-radio" required>20 min</label>
+                                    </div>
+                                </fieldset>
+
+                                <!-- Step 2: Content Type -->
+                                <fieldset data-step="2">
+                                    <legend class="text-lg font-semibold mb-3">2. Select Content Type</legend>
+                                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                                        <label class="form-radio-label"><input type="radio" name="type" value="gaming" class="form-radio" required>Gaming</label>
+                                        <label class="form-radio-label"><input type="radio" name="type" value="tutorial" class="form-radio" required>Tutorial</label>
+                                        <label class="form-radio-label"><input type="radio" name="type" value="vlog" class="form-radio" required>Vlog</label>
+                                        <label class="form-radio-label"><input type="radio" name="type" value="other" class="form-radio" required>Other</label>
+                                    </div>
+                                </fieldset>
+
+                                <!-- Step 3: Key Features -->
+                                <fieldset data-step="3">
+                                    <legend class="text-lg font-semibold mb-3">3. Choose Key Features</legend>
+                                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                                        <label class="form-check-label"><input type="checkbox" name="features" value="motion-graphics" class="form-checkbox">Motion Graphics</label>
+                                        <label class="form-check-label"><input type="checkbox" name="features" value="captions" class="form-checkbox">Captions</label>
+                                        <label class="form-check-label"><input type="checkbox" name="features" value="color-grading" class="form-checkbox">Color Grading</label>
+                                        <label class="form-check-label"><input type="checkbox" name="features" value="all" class="form-checkbox">All of these</label>
+                                    </div>
+                                </fieldset>
+
+                                <!-- Step 4: Footage Ready -->
+                                 <fieldset data-step="4">
+                                    <legend class="text-lg font-semibold mb-3">4. Is Your Footage Ready?</legend>
+                                    <div class="grid grid-cols-2 gap-4">
+                                        <label class="form-radio-label"><input type="radio" name="ready" value="yes" class="form-radio" required>Yes</label>
+                                        <label class="form-radio-label"><input type="radio" name="ready" value="no" class="form-radio" required>No</label>
+                                    </div>
+                                </fieldset>
+
+                                <!-- Step 5: Details -->
+                                <div data-step="5">
+                                    <label for="details" class="text-lg font-semibold mb-3 block">5. Any other details or specific requests? (Optional)</label>
+                                    <textarea id="details" name="details" rows="4" class="w-full bg-slate-100 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 rounded-lg p-3 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors" placeholder="e.g., specific music style, branding elements to include..."></textarea>
+                                </div>
+                            </div>
+                            
+                            <button type="submit" class="w-full bg-blue-600 text-white font-bold py-4 px-8 rounded-lg text-xl mt-10 hover:bg-blue-700 transition-colors transform hover:scale-[1.02] shadow-lg">Reserve Your Spot</button>
+                        </form>
+                        <div id="thank-you-message" class="hidden text-center py-10">
+                            <i data-lucide="party-popper" aria-hidden="true" class="mx-auto h-16 w-16 text-green-500 mb-4"></i>
+                            <h3 class="text-2xl font-bold text-slate-900 dark:text-white mb-2">Thank You!</h3>
+                            <p class="text-slate-600 dark:text-slate-400">Your spot is reserved. We'll be in touch within 4-6 hours with the next steps.</p>
+                        </div>
+                    </div>
+                     <div class="mt-8 text-center text-slate-600 dark:text-slate-400 p-4 bg-green-100 dark:bg-green-900/50 rounded-lg border border-green-200 dark:border-green-800">
+                        <p><i data-lucide="shield-check" class="inline-block mr-2" aria-hidden="true"></i><strong>Next Steps:</strong> We will email you within 4-6 hours with a link to upload your footage (via Google Drive/WeTransfer) and a secure payment link.</p>
+                     </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="sticky bottom-0 z-40 bg-slate-100 dark:bg-slate-950 border-t border-slate-200 dark:border-slate-800 py-4 px-4">
+            <div class="container mx-auto text-center text-sm text-slate-500 dark:text-slate-400">
+                <p>&copy; 2025 NVGO. All Rights Reserved.</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script type="module" src="script.js"></script>
+</body>
+</html>

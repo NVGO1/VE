@@ -1,0 +1,124 @@
+/* Jony Ive Inspired Styling & Enhancements */
+
+/* Font & Base Styles */
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f5f9; /* slate-100 */
+}
+::-webkit-scrollbar-thumb {
+    background: #64748b; /* slate-500 */
+    border-radius: 10px;
+}
+.dark ::-webkit-scrollbar-track {
+    background: #0f172a; /* slate-900 */
+}
+.dark ::-webkit-scrollbar-thumb {
+    background: #475569; /* slate-600 */
+}
+
+/* Animated Gradient Background for Hero */
+.animated-gradient-bg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        -45deg,
+        #4f46e5, /* Indigo 600 */
+        #7c3aed, /* Violet 600 */
+        #3b82f6, /* Blue 500 */
+        #8b5cf6  /* Violet 500 */
+    );
+    background-size: 400% 400%;
+    animation: gradient-flow 15s ease infinite;
+}
+
+@keyframes gradient-flow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+
+/* Custom Form Styles */
+.form-radio-label, .form-check-label {
+    display: block;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* Light Mode Form Labels */
+.form-radio-label, .form-check-label {
+    background-color: #f1f5f9; /* slate-100 */
+    border-color: #e2e8f0; /* slate-200 */
+    color: #334155; /* slate-700 */
+}
+.form-radio-label:hover, .form-check-label:hover {
+    border-color: #60a5fa; /* blue-400 */
+}
+
+/* Dark Mode Form Labels */
+.dark .form-radio-label, .dark .form-check-label {
+    background-color: #1e293b; /* slate-800 */
+    border-color: #334155; /* slate-700 */
+    color: #cbd5e1; /* slate-300 */
+}
+.dark .form-radio-label:hover, .dark .form-check-label:hover {
+    border-color: #3b82f6; /* blue-500 */
+}
+
+
+/* Hide default radio/checkbox */
+.form-radio, .form-checkbox {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* Style for selected labels, handled via JS by adding .selected class */
+label.selected {
+    background-color: #3b82f6 !important;
+    border-color: #2563eb !important;
+    color: white !important;
+    box-shadow: 0 4px 14px 0 rgb(0 118 255 / 39%);
+    transform: scale(1.02);
+}
+
+.dark label.selected {
+    background-color: #3b82f6 !important;
+    border-color: #60a5fa !important;
+}
+
+/* Validation Styles */
+fieldset.invalid {
+    border: 1px solid #ef4444; /* red-500 */
+    border-radius: 0.75rem; /* larger radius to contain labels */
+    padding: 0.25rem;
+}
+fieldset.valid {
+    border: 1px solid #22c55e; /* green-500 */
+    border-radius: 0.75rem; /* larger radius to contain labels */
+    padding: 0.25rem;
+}
+
+/* Add transition to fieldset border color */
+fieldset {
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid transparent;
+    padding: 0.25rem;
+    border-radius: 0.75rem;
+}
